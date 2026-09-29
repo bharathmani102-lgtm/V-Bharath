@@ -1,0 +1,17 @@
+{
+  "name": "comiccraft-ai-comic-story-creator",
+  "private": true,
+  "version": "1.0.0",
+  "description": "ComicCraft - AI Comic Story Creator",
+  "workspaces": ["client", "server"],
+  "scripts": {
+    "dev": "concurrently \"npm run dev --workspace server\" \"npm run dev --workspace client\"",
+    "build": "npm run build --workspace client",
+    "start": "npm run start --workspace server",
+    "test": "npm run test --workspace server",
+    "install:all": "npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

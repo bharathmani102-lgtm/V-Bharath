@@ -1,0 +1,12 @@
+# Server
+PORT=5000
+CLIENT_ORIGIN=http://localhost:5173
+
+# OpenAI
+# Leave empty to use ComicCraft demo/mock mode.
+OPENAI_API_KEY=
+OPENAI_TEXT_MODEL=gpt-5.6-luna
+OPENAI_IMAGE_MODEL=gpt-image-2
+
+# Optional: set true to generate images through the API.
+ENABLE_IMAGE_GENERATION=false
